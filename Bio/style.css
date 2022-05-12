@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{margin: 0px;}
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://uploads.jovemnerd.com.br/wp-content/uploads/2022/02/michael-jackson-cinebiografia-confirmada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+main{
+    margin: 1rem;
+}
+main p{
+    margin-bottom: 30px;
+}
+table tr td img{
+    width: 250px;
+}
