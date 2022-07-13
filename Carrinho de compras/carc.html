@@ -25,14 +25,14 @@
                 <td><img src="Capturar.PNG" alt="" height="150px"></td>
                 <td>Shampoo feminino</td>
                 <td>R$25,00</td>
-                <td><input type="number" name="op" id="op1" onchange="calcula('op1')"></td>
+                <td><input type="number" name="op" id="op1" min="0"  onchange="calcula('op1')"></td>
                 <td id="pt1"></td>
             </tr>
             <tr>
                 <td><img src="Capturar2.PNG" alt="" height="150px"></td>
                 <td>Perfume feminino</td>
                 <td>R$400,00</td>
-                <td><input type="number" name="op" id="op2" onchange="calcula('op2')"></td>
+                <td><input type="number" name="op" id="op2" min="0" onchange="calcula('op2')"></td>
                 <td id="pt2"></td>
             </tr>
             <tr>
@@ -43,6 +43,13 @@
                 <td id="pt3"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Preço total</td>
+            <td id="ptotal"></td>
+        </tfoot>
     </table>
 </body>
 </html>
